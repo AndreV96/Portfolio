@@ -61,6 +61,10 @@
   text-align: justify;
 }
 
+.container-form {
+  max-width: 540px !important;
+}
+
 .footer-icons {
   color: white;
   width: 50px;
