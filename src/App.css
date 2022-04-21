@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+/* Colors */
+
+.bg-black {
+  background-color: #32292F;
+}
+.bg-blue-green {
+  background-color: #99E1D9;
+}
+.bg-cream {
+  background-color: #F0F7F4;
+}
+.bg-cadet-blue {
+  background-color: #70ABAF;
+}
+.bg-umber {
+  background-color: #705D56;
+}
+
+/* Text */
+
+.text-justify {
+  text-align: justify;
+}

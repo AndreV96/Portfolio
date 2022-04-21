@@ -2,10 +2,10 @@ import React from "react";
 
 import Navigation from "./Navigation";
 
-function Header() {
+function Header(props) {
   return (
     <div className="App">
-      <Navigation />
+      <Navigation currentPage = {props.currentPage} setCurrentPage = {props.setCurrentPage} />
     </div>
   );
 }
