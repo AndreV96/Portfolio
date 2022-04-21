@@ -8,7 +8,7 @@ function Navigation(props) {
   }
   return (
     <div>
-      <Navbar className="bg-primary py-4" variant="dark">
+      <Navbar className="bg-primary bg-gradient py-3" variant="dark">
         <Container>
           <Navbar.Brand className="fs-2">André Vega</Navbar.Brand>
             <Nav>

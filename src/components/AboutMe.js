@@ -3,12 +3,12 @@ import {Container, Image} from 'react-bootstrap';
 
 function AboutMe() {
   return (
-    <div className="App py-3 bg-cream">
+    <div className="App py-3 bg-light bg-gradient">
       <Container>
       <h2 className="text-start">About Me</h2>
       <Image className="d-block rounded-circle" src="../public/pp.jpeg"></Image>
-      <p className="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum ante eu porta vehicula. Aenean nec felis auctor, blandit sapien sit amet, consectetur libero. Aenean vitae auctor sapien, vitae sagittis elit. Maecenas sollicitudin massa vitae ullamcorper vehicula. Fusce tincidunt lorem sem, nec iaculis nisl consequat vitae. Nunc interdum semper cursus. Phasellus ante tellus, vestibulum nec vehicula a, pharetra at tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam vel faucibus sapien. Morbi dignissim sapien aliquam urna sollicitudin aliquet. </p>
-      <p className="text-justify">Integer eget nunc at nisl pharetra lobortis. Quisque quam enim, elementum ac iaculis ac, vulputate quis turpis. Aliquam erat volutpat. Aliquam erat volutpat.</p>
+      <p className="text-justify">Welcome to my Professional Portfolio, here you will be able to find all proyects I have created from scratch. They where made with the purpose of practicing my web developer skills in front-end as well as in back-end. Here you will find links to all the deployed websites and their github repositories. At the end of this portfolio you will find contact information with links to my LinkedIn, GitHub profile and CV (resume). </p>
+      <p className="text-justify">My name is André Vega Lederer, I've been studying Computer Sciences in TecMilenio for the last 1.5 years. At the same time I've been learning Web Development skills to become a Full-Stack web developer. At the moment, I am taking the Tecnologico de Monterrey Coding Bootcamp. A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS. I will finish it on May 12th.</p>
       </Container>
     </div>
   );
