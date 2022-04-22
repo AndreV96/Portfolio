@@ -15,7 +15,7 @@ function App() {
     switch(currentPage) {
       case "about":
         return <AboutMe />
-      case "project":
+      case "portfolio":
         return <Project />
       case "contact":
         return <ContactForm />

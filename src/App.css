@@ -55,10 +55,50 @@
   background-color: #705D56;
 }
 
+.max-width-720 {
+  max-width: 720px !important;
+}
+
 /* Text */
 
 .text-justify {
   text-align: justify;
+}
+
+/* Projects */
+
+.projects-container {
+
+}
+
+.project-card::before {
+  content: 'Whistle';
+  position: absolute;
+  background-color: rgba(1, 1, 1, 0.5);
+  transition: all 250ms ease-in-out;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+.project-card:hover::before{
+  cursor: pointer;
+  background-color: rgba(1, 1, 1, 0.1);
+  transition: all 250ms ease-in-out;
+}
+
+/* Projects MQs*/
+
+.projects-container {
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .container-form {
@@ -75,3 +115,4 @@
   color: #6c757d;
   cursor: pointer;
 }
+

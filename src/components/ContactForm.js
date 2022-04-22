@@ -1,5 +1,5 @@
 import React from "react";
-import {Form, Button, Container, InputGroup, FormControl} from 'react-bootstrap';
+import {Form, Button, Container, FormControl} from 'react-bootstrap';
 
 function ContactForm() {
   return (
