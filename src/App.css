@@ -81,10 +81,24 @@
   width: 100px;
 }
 
+.active-link {
+  color: red !important;
+}
+
 /* Projects */
 
 .projects-container {
 
+}
+
+.card-overlay {
+  transition: all 250ms ease-in-out;
+  display: none;
+}
+
+.project-card:hover .card-overlay {
+  display: block;
+  transition: all 250ms ease-in-out;
 }
 
 .project-card::before {

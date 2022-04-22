@@ -12,10 +12,10 @@ function Navigation(props) {
         <Container>
           <Navbar.Brand className="fs-2">André Vega</Navbar.Brand>
             <Nav className="">
-              <Nav.Link id="about" onClick={clickHandler} >About Me</Nav.Link>
-              <Nav.Link id="portfolio" onClick={clickHandler} >Portfolio</Nav.Link>
-              <Nav.Link id="contact" onClick={clickHandler} >Contact</Nav.Link>
-              <Nav.Link id="resume" onClick={clickHandler} >Resume</Nav.Link>
+              <Nav.Link id="about" onClick={clickHandler} className={props.currentPage === "about" ? "active-link" : ""}>About Me</Nav.Link>
+              <Nav.Link id="portfolio" onClick={clickHandler} className={props.currentPage === "portfolio" ? "active-link" : ""}>Portfolio</Nav.Link>
+              <Nav.Link id="contact" onClick={clickHandler} className={props.currentPage === "contact" ? "active-link" : ""}>Contact</Nav.Link>
+              <Nav.Link id="resume" onClick={clickHandler} className={props.currentPage === "resume" ? "active-link" : ""}>Resume</Nav.Link>
             </Nav>
         </Container>
       </Navbar>

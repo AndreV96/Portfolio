@@ -10,7 +10,7 @@ function Project() {
       <Container className="my-3 projects-container align-items-center justify-content-center">
         <a href="https://limitless-plateau-15055.herokuapp.com/" target="_blank" className="whistle-card"><Card className="bg-dark text-white d-block project-card">
           <Card.Img src="Whistle2.png" alt="Card image" className="project-img"/>
-          <Card.ImgOverlay className="text-start">
+          <Card.ImgOverlay className="text-start card-overlay ">
             <Card.Title className="d-inline-block">Whistle</Card.Title>
             <a href="https://github.com/AndreV96/Whistle" target="_blank"><FontAwesomeIcon icon={faGithub}  className="ms-2 d-inline-block projects-github-icon"/></a> 
             <Card.Text>
