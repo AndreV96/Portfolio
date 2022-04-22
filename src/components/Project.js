@@ -5,7 +5,7 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons'
 
 function Project() {
   return (
-    <div className="App">
+    <div className="App ">
     <h1 className="mt-3">Projects</h1>
       <Container className="my-3 projects-container align-items-center justify-content-center">
         <a href="https://limitless-plateau-15055.herokuapp.com/" target="_blank" className="whistle-card"><Card className="bg-dark text-white d-block project-card">

@@ -8,10 +8,10 @@ function Navigation(props) {
   }
   return (
     <div>
-      <Navbar className="bg-primary bg-gradient py-3" variant="dark">
+      <Navbar className="bg-persian-blue bg-gradient py-3" variant="dark">
         <Container>
           <Navbar.Brand className="fs-2">André Vega</Navbar.Brand>
-            <Nav>
+            <Nav className="">
               <Nav.Link id="about" onClick={clickHandler} >About Me</Nav.Link>
               <Nav.Link id="portfolio" onClick={clickHandler} >Portfolio</Nav.Link>
               <Nav.Link id="contact" onClick={clickHandler} >Contact</Nav.Link>

@@ -39,6 +39,16 @@
 
 /* Colors */
 
+.bg-sky-blue {
+  background-color: #78C0E0;
+}
+.bg-persian-blue {
+  background-color: #192BC2;
+}
+.bg-midnight-blue {
+  background-color: #0E0E52;
+}
+
 .bg-black {
   background-color: #32292F;
 }

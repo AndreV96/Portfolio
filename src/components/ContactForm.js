@@ -20,7 +20,7 @@ function ContactForm() {
             <FormControl as="textarea" aria-label="With textarea" placeholder="Enter a message"/>
           </Form.Group>
           {/* Add a type="submit" to add the functionality */}
-          <Button variant="secondary">
+          <Button className="bg-persian-blue bg-gradient">
             Submit
           </Button>
         </Form>
